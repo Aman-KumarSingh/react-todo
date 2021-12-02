@@ -13,3 +13,12 @@ export const deleteTodo =(id)=>{
         id
     }
 }
+export const updateTodo =(id,udata)=>{
+    return {
+        type: "UPDATE_TODO",
+        id:id,
+        payload: {
+            udata:udata
+        }
+    }
+}

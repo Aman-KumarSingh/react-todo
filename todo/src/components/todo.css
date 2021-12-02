@@ -37,8 +37,11 @@
   }
 .addBtn{    
      margin-left: auto;
-    padding:5px;
+    padding:7px;
       }
+.addBtn i{
+  margin-right: 6px;
+}
   .eachItems h4{
       padding-left:5px;
   }
